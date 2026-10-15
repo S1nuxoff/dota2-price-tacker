@@ -108,9 +108,10 @@ function saveState(state) {
 }
 async function getAllItemNames() {
   return Promise.all([
-    fetch(`${ITEMS_API_BASE_URL}/main/static/items_game.txt.json`)
+    fetch(`${ITEMS_API_BASE_URL}/main/static/items_game.json`)
       .then((res) => res.json())
-      .then((items) => {
+      .then((data) => {
+        const items = data.items_game?.items ?? data;
         let prefabItems = [];
         for (let key in items) {
           if (items[key].prefab) {
