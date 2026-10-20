@@ -1046,10 +1046,10 @@
     "Acolyte of Clasz Set": {
         "steam": {
             "last_24h": null,
-            "last_7d": 0.2615,
-            "last_30d": 0.21007142857142852,
-            "last_90d": 0.3141515151515151,
-            "last_ever": 0.259
+            "last_7d": 0.656,
+            "last_30d": 0.68825,
+            "last_90d": 0.7457777777777778,
+            "last_ever": 0.656
         }
     },
     "Acolyte of Vengeance": {
@@ -1648,11 +1648,11 @@
     },
     "Alpha Predator Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030180555555555558,
-            "last_30d": 0.030179640718562842,
-            "last_90d": 0.09522535211267637,
-            "last_ever": 0.03
+            "last_24h": 0.031,
+            "last_7d": 0.038125000000000006,
+            "last_30d": 0.03504651162790697,
+            "last_90d": 0.033480620155038755,
+            "last_ever": 0.031
         }
     },
     "Alpine Stalker's Gloves": {
@@ -2701,11 +2701,11 @@
     },
     "Arctic Hunter Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.030480662983425406,
-            "last_90d": 0.030448851774530186,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.041199999999999994,
+            "last_30d": 3.246742857142858,
+            "last_90d": 1.0050086206896554,
+            "last_ever": 0.042
         }
     },
     "Arctic Hunter's Glove": {
@@ -4565,10 +4565,10 @@
     "Arms of the Deep Vault Guardian Set": {
         "steam": {
             "last_24h": null,
-            "last_7d": 0.16,
-            "last_30d": 0.12675,
-            "last_90d": 0.17834615384615388,
-            "last_ever": 0.16
+            "last_7d": null,
+            "last_30d": 0.091,
+            "last_90d": 1.2409999999999999,
+            "last_ever": 0.091
         }
     },
     "Arms of the Eternal Seasons": {
@@ -5401,11 +5401,11 @@
     },
     "Attributes of the Foretold Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.030456521739130455,
-            "last_90d": 0.03024698795180725,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.0576,
+            "last_30d": 0.06319230769230769,
+            "last_90d": 0.10155714285714287,
+            "last_ever": 0.057
         }
     },
     "Attunements of the Ornate": {
@@ -10047,9 +10047,9 @@
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": null,
-            "last_90d": null,
-            "last_ever": 6.367
+            "last_30d": 0.225,
+            "last_90d": 0.225,
+            "last_ever": 0.228
         }
     },
     "Blood Drainer": {
@@ -10631,9 +10631,9 @@
     "Bonds of Vincere Set": {
         "steam": {
             "last_24h": 0.03,
-            "last_7d": 0.030163934426229517,
-            "last_30d": 0.07804464285714287,
-            "last_90d": 0.06652920962199324,
+            "last_7d": 0.03066666666666667,
+            "last_30d": 0.13124999999999992,
+            "last_90d": 0.1415876963350785,
             "last_ever": 0.03
         }
     },
@@ -14905,10 +14905,10 @@
     },
     "Caustic Steel Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03000000000000001,
-            "last_30d": 0.030475862068965496,
-            "last_90d": 0.05353300733496344,
+            "last_24h": 0.0305,
+            "last_7d": 0.031200000000000006,
+            "last_30d": 0.03485714285714285,
+            "last_90d": 0.36603883495145606,
             "last_ever": 0.03
         }
     },
@@ -21496,8 +21496,8 @@
             "last_24h": null,
             "last_7d": null,
             "last_30d": null,
-            "last_90d": 0.24133333333333332,
-            "last_ever": 0.25
+            "last_90d": 3.476,
+            "last_ever": 3.476
         }
     },
     "Defense of the Arabians": {
@@ -24886,11 +24886,11 @@
     },
     "Embers of Endless Havoc Set": {
         "steam": {
-            "last_24h": 0.030270270270270273,
-            "last_7d": 0.030181818181818188,
-            "last_30d": 0.030142011834319495,
-            "last_90d": 0.030077097505668827,
-            "last_ever": 0.04
+            "last_24h": null,
+            "last_7d": 0.032,
+            "last_30d": 0.033769230769230774,
+            "last_90d": 0.03362903225806451,
+            "last_ever": 0.03
         }
     },
     "Emblazoned Arm of Delicacies of Butchery": {
@@ -34939,10 +34939,10 @@
     },
     "Heart of the North Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.149554054054054,
-            "last_30d": 0.07457788944723612,
-            "last_90d": 0.8112835249042093,
+            "last_24h": null,
+            "last_7d": 0.03436363636363637,
+            "last_30d": 0.033740740740740745,
+            "last_90d": 0.07618018018018019,
             "last_ever": 0.03
         }
     },
@@ -39079,11 +39079,11 @@
     },
     "Impending Transgressions Set": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.030000000000000006,
-            "last_30d": 0.03017647058823531,
-            "last_90d": 0.03007499999999991,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.034749999999999996,
+            "last_30d": 0.03655223880597014,
+            "last_90d": 0.10503875968992246,
+            "last_ever": 0.038
         }
     },
     "Imperishable Spirit of the Lord": {
@@ -39421,11 +39421,11 @@
     },
     "Instruments of the Claddish Voyager Set": {
         "steam": {
-            "last_24h": 0.030418604651162785,
-            "last_7d": 0.030305084745762708,
-            "last_30d": 0.17096000000000014,
-            "last_90d": 0.08435729847494558,
-            "last_ever": 0.03
+            "last_24h": 0.066,
+            "last_7d": 0.031758620689655175,
+            "last_30d": 0.031646153846153845,
+            "last_90d": 0.0322134831460674,
+            "last_ever": 0.066
         }
     },
     "International 2012 Ticket": {
@@ -54661,8 +54661,8 @@
             "last_24h": null,
             "last_7d": null,
             "last_30d": null,
-            "last_90d": 10.693,
-            "last_ever": 10.693
+            "last_90d": null,
+            "last_ever": 1.852
         }
     },
     "Pyrion Flax Glitter Talent Sticker Bundle - TI 2023": {
@@ -56233,11 +56233,11 @@
     },
     "Remains of the Dreadknight Set": {
         "steam": {
-            "last_24h": 0.0415,
-            "last_7d": 0.04150000000000001,
-            "last_30d": 0.04361340206185566,
-            "last_90d": 0.042896652110625946,
-            "last_ever": 0.034
+            "last_24h": 0.0445,
+            "last_7d": 0.04649999999999999,
+            "last_30d": 0.043361111111111114,
+            "last_90d": 0.04071641791044776,
+            "last_ever": 0.044
         }
     },
     "Reminiscence of Dreams": {
@@ -69895,11 +69895,11 @@
     },
     "The Atniw's Fury Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000006,
-            "last_30d": 0.030068807339449537,
-            "last_90d": 0.030028901734103965,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.03508333333333335,
+            "last_30d": 0.034241379310344836,
+            "last_90d": 0.03561904761904761,
+            "last_ever": 0.031
         }
     },
     "The Barren Crown": {
@@ -70238,9 +70238,9 @@
     "The Dreaded Bravo Set": {
         "steam": {
             "last_24h": 0.03,
-            "last_7d": 0.029999999999999992,
-            "last_30d": 0.30110240963855467,
-            "last_90d": 0.1648321167883214,
+            "last_7d": 19.01388888888889,
+            "last_30d": 5.92351724137931,
+            "last_90d": 2.2520389610389606,
             "last_ever": 0.03
         }
     },
@@ -70858,11 +70858,11 @@
     },
     "The Moon Rider Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03,
-            "last_30d": 0.13895833333333346,
-            "last_90d": 0.41154117647058885,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.04833333333333334,
+            "last_30d": 0.05946153846153848,
+            "last_90d": 0.05871604938271605,
+            "last_ever": 0.031
         }
     },
     "The Mourning Mother": {
@@ -70904,19 +70904,19 @@
     "The Nightwatcher's Set": {
         "steam": {
             "last_24h": 0.03,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.030242424242424213,
-            "last_90d": 0.030110526315789386,
+            "last_7d": 0.036750000000000005,
+            "last_30d": 0.038206896551724136,
+            "last_90d": 0.14651461988304096,
             "last_ever": 0.03
         }
     },
     "The Nomad Protector Set": {
         "steam": {
-            "last_24h": 0.07,
-            "last_7d": 0.07,
-            "last_30d": 0.07,
-            "last_90d": 0.1465,
-            "last_ever": 0.07
+            "last_24h": null,
+            "last_7d": null,
+            "last_30d": null,
+            "last_90d": 0.991,
+            "last_ever": 1.003
         }
     },
     "The Obsidian Blade Set": {
@@ -77401,10 +77401,10 @@
     },
     "Whispering Dead Set": {
         "steam": {
-            "last_24h": 0.030000000000000006,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.030029702970297008,
-            "last_90d": 0.030009999999999946,
+            "last_24h": 0.03,
+            "last_7d": 0.0314,
+            "last_30d": 0.032551724137931046,
+            "last_90d": 0.032300970873786375,
             "last_ever": 0.03
         }
     },
