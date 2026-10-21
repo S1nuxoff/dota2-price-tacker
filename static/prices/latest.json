@@ -1207,11 +1207,11 @@
     },
     "Adornments of Blight Set": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.030299999999999994,
-            "last_30d": 0.030207865168539308,
-            "last_90d": 0.030080260303687545,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.037875,
+            "last_30d": 1.1364516129032254,
+            "last_90d": 0.430471264367816,
+            "last_ever": 0.037
         }
     },
     "Adornments of the Crystal Path": {
@@ -1831,7 +1831,7 @@
             "last_24h": null,
             "last_7d": null,
             "last_30d": null,
-            "last_90d": 0.885,
+            "last_90d": null,
             "last_ever": 0.885
         }
     },
@@ -2692,11 +2692,11 @@
     },
     "Arcs of Manta Pack": {
         "steam": {
-            "last_24h": 0.922125,
-            "last_7d": 0.9381282051282057,
-            "last_30d": 0.9426959064327477,
-            "last_90d": 1.0063051470588231,
-            "last_ever": 0.944
+            "last_24h": 5.542714285714287,
+            "last_7d": 4.641894736842104,
+            "last_30d": 2.3631659388646282,
+            "last_90d": 1.8910381125226867,
+            "last_ever": 5.579
         }
     },
     "Arctic Hunter Set": {
@@ -3331,11 +3331,11 @@
     },
     "Armor of Eternal Reign": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.030256410256410265,
-            "last_30d": 0.03015540540540535,
-            "last_90d": 0.03005099778270499,
-            "last_ever": 0.03
+            "last_24h": 0.033,
+            "last_7d": 0.03611111111111112,
+            "last_30d": 0.038654545454545435,
+            "last_90d": 0.042119205298013274,
+            "last_ever": 0.033
         }
     },
     "Armor of Flightless Fury": {
@@ -4503,9 +4503,9 @@
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": null,
-            "last_90d": null,
-            "last_ever": 32.458
+            "last_30d": 0.21,
+            "last_90d": 0.5325,
+            "last_ever": 0.21
         }
     },
     "Arms of the Boilerplate Bruiser": {
@@ -5474,9 +5474,9 @@
     "Augur's Curse Set": {
         "steam": {
             "last_24h": 0.03,
-            "last_7d": 0.03,
-            "last_30d": 0.03007526881720428,
-            "last_90d": 0.03002564102564094,
+            "last_7d": 0.031,
+            "last_30d": 0.030780487804878055,
+            "last_90d": 0.031759036144578284,
             "last_ever": 0.03
         }
     },
@@ -6159,9 +6159,9 @@
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": 4.19,
-            "last_90d": 3.4800000000000004,
-            "last_ever": 4.19
+            "last_30d": null,
+            "last_90d": null,
+            "last_ever": 3.996
         }
     },
     "Bafik Talent Sticker - TI 2022": {
@@ -6400,11 +6400,11 @@
     },
     "Barathrum's Fury Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030138297872340427,
-            "last_30d": 0.03032211538461536,
-            "last_90d": 0.03581279620853065,
-            "last_ever": 0.03
+            "last_24h": 0.05325,
+            "last_7d": 0.049705882352941176,
+            "last_30d": 0.05842105263157894,
+            "last_90d": 0.06171098265895957,
+            "last_ever": 0.06
         }
     },
     "Barbed Head of the Forbidden Sands": {
@@ -8767,11 +8767,11 @@
     },
     "Bindings of the Storm-Stealer Set": {
         "steam": {
-            "last_24h": 0.037,
-            "last_7d": 0.033851851851851855,
-            "last_30d": 0.032037593984962365,
-            "last_90d": 0.030953296703296693,
-            "last_ever": 0.037
+            "last_24h": 0.07,
+            "last_7d": 0.06388235294117646,
+            "last_30d": 0.07922641509433961,
+            "last_90d": 0.0720284090909091,
+            "last_ever": 0.073
         }
     },
     "Bindings of the Summoned Lord": {
@@ -9019,11 +9019,11 @@
     },
     "Blacksmith's Blessings": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03014285714285714,
-            "last_30d": 0.032828571428571415,
-            "last_90d": 0.03473821989528797,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.081625,
+            "last_30d": 0.07947058823529411,
+            "last_90d": 0.09653191489361698,
+            "last_ever": 0.08
         }
     },
     "Blade and Bow": {
@@ -19118,10 +19118,10 @@
     "Crown of Hells": {
         "steam": {
             "last_24h": null,
-            "last_7d": 11.978,
-            "last_30d": 7.029,
-            "last_90d": 7.280333333333334,
-            "last_ever": 11.978
+            "last_7d": null,
+            "last_30d": null,
+            "last_90d": 2.985,
+            "last_ever": 2.985
         }
     },
     "Crown of Malice": {
@@ -19702,11 +19702,11 @@
     },
     "Cryogenic Embrace Set": {
         "steam": {
-            "last_24h": 0.030000000000000006,
-            "last_7d": 0.03000000000000001,
-            "last_30d": 0.030689440993788793,
-            "last_90d": 0.030298941798941707,
-            "last_ever": 0.03
+            "last_24h": 0.067,
+            "last_7d": 0.06388235294117646,
+            "last_30d": 0.06113207547169812,
+            "last_90d": 1.1794216867469887,
+            "last_ever": 0.067
         }
     },
     "Crystal Dryad": {
@@ -20089,11 +20089,11 @@
     },
     "Curse of the Malignant Corruption Set": {
         "steam": {
-            "last_24h": 0.029999999999999995,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.03016666666666665,
-            "last_90d": 0.03016230366492138,
-            "last_ever": 0.03
+            "last_24h": 0.03166666666666667,
+            "last_7d": 0.03720000000000001,
+            "last_30d": 0.9690000000000002,
+            "last_90d": 0.3247999999999999,
+            "last_ever": 0.031
         }
     },
     "Curse of the New Season": {
@@ -20944,11 +20944,11 @@
     },
     "Darkness Wanderer's Armor Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030055084745762718,
-            "last_30d": 0.03009021113243759,
-            "last_90d": 0.03684635416666671,
-            "last_ever": 0.03
+            "last_24h": 0.05,
+            "last_7d": 0.04466666666666666,
+            "last_30d": 0.057499999999999975,
+            "last_90d": 0.04658646616541354,
+            "last_ever": 0.05
         }
     },
     "Darkstar the Mistforged": {
@@ -21169,11 +21169,11 @@
     },
     "Death Charge Set": {
         "steam": {
-            "last_24h": 0.16133333333333333,
-            "last_7d": 0.15345454545454543,
-            "last_30d": 0.1743472222222223,
-            "last_90d": 0.2092335025380712,
-            "last_ever": 0.15
+            "last_24h": 0.424,
+            "last_7d": 0.4116666666666666,
+            "last_30d": 0.43665625,
+            "last_90d": 0.451188888888889,
+            "last_ever": 0.424
         }
     },
     "Death Mask of the Brave": {
@@ -22051,11 +22051,11 @@
     },
     "Dimensional Infestation Set": {
         "steam": {
-            "last_24h": 0.030000000000000006,
-            "last_7d": 0.030000000000000006,
-            "last_30d": 0.03009271523178803,
-            "last_90d": 0.030033816425120652,
-            "last_ever": 0.03
+            "last_24h": 0.04,
+            "last_7d": 0.03161538461538462,
+            "last_30d": 0.033522727272727273,
+            "last_90d": 0.03386363636363633,
+            "last_ever": 0.04
         }
     },
     "Dimensional Seep": {
@@ -22574,10 +22574,10 @@
     "Dosa": {
         "steam": {
             "last_24h": null,
-            "last_7d": 1.043,
-            "last_30d": 1.1254000000000002,
-            "last_90d": 1.404375,
-            "last_ever": 1.043
+            "last_7d": null,
+            "last_30d": 4.0045,
+            "last_90d": 4.11895,
+            "last_ever": 4.226
         }
     },
     "Dosa Arms": {
@@ -23248,11 +23248,11 @@
     },
     "Dragon Forged Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03000000000000001,
-            "last_30d": 0.030258741258741215,
-            "last_90d": 0.03009487179487168,
-            "last_ever": 0.03
+            "last_24h": 0.04,
+            "last_7d": 0.0335,
+            "last_30d": 0.032882352941176474,
+            "last_90d": 0.6481136363636366,
+            "last_ever": 0.04
         }
     },
     "Dragon Horse Spirit Totem": {
@@ -23547,9 +23547,9 @@
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": 10.32,
-            "last_90d": 8.8045,
-            "last_ever": 10.32
+            "last_30d": 5.83,
+            "last_90d": 8.409333333333334,
+            "last_ever": 5.83
         }
     },
     "Dreaded Bravo's Cape": {
@@ -24574,8 +24574,8 @@
             "last_24h": null,
             "last_7d": null,
             "last_30d": null,
-            "last_90d": null,
-            "last_ever": 2
+            "last_90d": 0.222,
+            "last_ever": 0.222
         }
     },
     "ElPadrinoth Latin Cup": {
@@ -25570,11 +25570,11 @@
     },
     "Equine Emissary": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.030191860465116266,
-            "last_90d": 0.0675674157303372,
-            "last_ever": 0.03
+            "last_24h": 0.042,
+            "last_7d": 0.034942307692307696,
+            "last_30d": 1.0486666666666673,
+            "last_90d": 0.5263230769230773,
+            "last_ever": 0.042
         }
     },
     "Equine Emissary Loading Screen": {
@@ -28468,10 +28468,10 @@
     },
     "Foreteller's Robes Set": {
         "steam": {
-            "last_24h": 0.030000000000000006,
-            "last_7d": 0.03,
-            "last_30d": 0.09602793296089379,
-            "last_90d": 0.05481048387096776,
+            "last_24h": null,
+            "last_7d": 0.03133333333333333,
+            "last_30d": 0.030945945945945946,
+            "last_90d": 0.03304347826086955,
             "last_ever": 0.03
         }
     },
@@ -28711,11 +28711,11 @@
     },
     "Formed Alloy Set": {
         "steam": {
-            "last_24h": 0.184,
-            "last_7d": 0.1735,
-            "last_30d": 0.21372619047619054,
-            "last_90d": 0.16649735449735445,
-            "last_ever": 0.121
+            "last_24h": 0.27,
+            "last_7d": 0.26066666666666666,
+            "last_30d": 0.2785555555555555,
+            "last_90d": 0.2999555555555556,
+            "last_ever": 0.27
         }
     },
     "Formed Alloy Wristplates": {
@@ -29485,11 +29485,11 @@
     },
     "Fungal Lord Set": {
         "steam": {
-            "last_24h": 0.0675,
-            "last_7d": 0.07828571428571429,
-            "last_30d": 0.07043999999999999,
-            "last_90d": 0.06408292682926832,
-            "last_ever": 0.046
+            "last_24h": 0.312,
+            "last_7d": 0.3831666666666667,
+            "last_30d": 0.4352368421052632,
+            "last_90d": 0.3594644808743169,
+            "last_ever": 0.312
         }
     },
     "Furious Nethergeist - Back": {
@@ -29962,11 +29962,11 @@
     },
     "Garb of the Cruel Magician Set": {
         "steam": {
-            "last_24h": 0.759,
-            "last_7d": 0.6806666666666666,
-            "last_30d": 0.7424583333333333,
-            "last_90d": 0.7507640449438202,
-            "last_ever": 0.759
+            "last_24h": null,
+            "last_7d": 1.2355,
+            "last_30d": 1.1893939393939397,
+            "last_90d": 1.0974395604395608,
+            "last_ever": 1.251
         }
     },
     "Garb of the Darkbrew Enforcer": {
@@ -30106,11 +30106,11 @@
     },
     "Garbs of the Eastern Range Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030465116279069778,
-            "last_30d": 0.030348101265822762,
-            "last_90d": 0.030155056179775184,
-            "last_ever": 0.03
+            "last_24h": 0.056499999999999995,
+            "last_7d": 0.061588235294117645,
+            "last_30d": 0.06451764705882351,
+            "last_90d": 0.06405687203791471,
+            "last_ever": 0.053
         }
     },
     "Gard1ck Player Sticker - TI 2022": {
@@ -30925,11 +30925,11 @@
     },
     "Gifts from the Gloom Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000006,
-            "last_30d": 0.030528571428571443,
-            "last_90d": 0.030251231527093626,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.048777777777777774,
+            "last_30d": 0.0466842105263158,
+            "last_90d": 0.04613333333333333,
+            "last_ever": 0.048
         }
     },
     "Gifts of the Vanished Isle Arms": {
@@ -30970,11 +30970,11 @@
     },
     "Gifts of the Vanished Isle Set": {
         "steam": {
-            "last_24h": 0.23416666666666666,
-            "last_7d": 0.23699186991869914,
-            "last_30d": 0.25347261663286025,
-            "last_90d": 0.27323446893787573,
-            "last_ever": 0.241
+            "last_24h": 0.6916666666666668,
+            "last_7d": 0.699311111111111,
+            "last_30d": 0.7828169014084505,
+            "last_90d": 0.7544984472049691,
+            "last_ever": 0.692
         }
     },
     "Gifts of the Vanished Isle Sword": {
@@ -35038,11 +35038,11 @@
     },
     "Heavenly General": {
         "steam": {
-            "last_24h": 0.029999999999999995,
-            "last_7d": 0.030212765957446815,
-            "last_30d": 0.030203592814371225,
-            "last_90d": 0.03009462365591389,
-            "last_ever": 0.03
+            "last_24h": 0.0455,
+            "last_7d": 0.040615384615384616,
+            "last_30d": 0.04196774193548385,
+            "last_90d": 0.0401543209876543,
+            "last_ever": 0.05
         }
     },
     "Heavenly General Armor": {
@@ -38836,11 +38836,11 @@
     },
     "Immemorial Emperor Set": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.030217391304347835,
-            "last_30d": 0.03032214765100667,
-            "last_90d": 0.03013276231263375,
-            "last_ever": 0.03
+            "last_24h": 0.05,
+            "last_7d": 0.043181818181818175,
+            "last_30d": 0.03971111111111111,
+            "last_90d": 0.04111023622047244,
+            "last_ever": 0.05
         }
     },
     "Immemorial Emperor's Beard": {
@@ -40198,8 +40198,8 @@
             "last_24h": null,
             "last_7d": null,
             "last_30d": null,
-            "last_90d": 1.276,
-            "last_ever": 1.276
+            "last_90d": null,
+            "last_ever": 4.358
         }
     },
     "Jolly Roger Loading Screen": {
@@ -47946,9 +47946,9 @@
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": 8.5485,
-            "last_90d": 7.8056,
-            "last_ever": 8.556
+            "last_30d": 9.01,
+            "last_90d": 11.37,
+            "last_ever": 9.01
         }
     },
     "Mysterious Vagabond's Concoction": {
@@ -48646,11 +48646,11 @@
     },
     "Nether Lord's Regalia Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03789285714285716,
-            "last_30d": 0.03445192307692305,
-            "last_90d": 0.03159701492537308,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.069,
+            "last_30d": 0.0860294117647059,
+            "last_90d": 0.06262146892655367,
+            "last_ever": 0.07
         }
     },
     "Nether Lord's Scepter": {
@@ -50284,11 +50284,11 @@
     },
     "Outcast of the Deep Set": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.03000000000000001,
-            "last_30d": 0.4694594594594601,
-            "last_90d": 0.17944852941176492,
-            "last_ever": 0.03
+            "last_24h": 0.031111111111111107,
+            "last_7d": 0.03127777777777778,
+            "last_30d": 0.03156896551724139,
+            "last_90d": 0.032308333333333314,
+            "last_ever": 0.04
         }
     },
     "Outland Ravager Loading Screen": {
@@ -52264,11 +52264,11 @@
     },
     "Phasma Phasmatis": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.030245398773006117,
-            "last_90d": 0.035637209302325466,
-            "last_ever": 0.03
+            "last_24h": 0.04066666666666666,
+            "last_7d": 0.0419090909090909,
+            "last_30d": 0.038413793103448265,
+            "last_90d": 0.046105263157894705,
+            "last_ever": 0.041
         }
     },
     "Phasma Phasmatis Belt": {
@@ -55144,11 +55144,11 @@
     },
     "Radiant Protector Set": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.03,
-            "last_30d": 0.030346153846153807,
-            "last_90d": 0.032257009345794264,
-            "last_ever": 0.03
+            "last_24h": 0.046,
+            "last_7d": 0.044812500000000005,
+            "last_30d": 0.04519230769230767,
+            "last_90d": 0.04976923076923077,
+            "last_ever": 0.046
         }
     },
     "Rage of the Three Loading Screen": {
@@ -56089,10 +56089,10 @@
     },
     "Regalia of the Mortal Coil Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000006,
-            "last_30d": 0.030016759776536284,
-            "last_90d": 0.030006741573033603,
+            "last_24h": null,
+            "last_7d": 0.030714285714285715,
+            "last_30d": 0.031897435897435905,
+            "last_90d": 0.032091954022988485,
             "last_ever": 0.03
         }
     },
@@ -56773,11 +56773,11 @@
     },
     "Riptide Blades Set": {
         "steam": {
-            "last_24h": null,
-            "last_7d": null,
-            "last_30d": 0.05772727272727274,
-            "last_90d": 0.05418556701030929,
-            "last_ever": 0.08
+            "last_24h": 0.4445,
+            "last_7d": 0.4612,
+            "last_30d": 0.4175294117647059,
+            "last_90d": 0.4126578947368421,
+            "last_ever": 0.506
         }
     },
     "Rites of Vile Convocation": {
@@ -57574,11 +57574,11 @@
     },
     "Rune Forged Set": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.6360549450549454,
-            "last_90d": 0.2945203836930457,
-            "last_ever": 0.03
+            "last_24h": 0.042,
+            "last_7d": 0.036384615384615376,
+            "last_30d": 0.03764285714285716,
+            "last_90d": 0.04442499999999998,
+            "last_ever": 0.042
         }
     },
     "Rune Forged Shoulders": {
@@ -59833,11 +59833,11 @@
     },
     "Sermon of the Frozen Apostle Set": {
         "steam": {
-            "last_24h": 0.3442631578947369,
-            "last_7d": 0.40832812499999993,
-            "last_30d": 0.35528971962616823,
-            "last_90d": 0.3833417861080485,
-            "last_ever": 0.378
+            "last_24h": 0.6606666666666666,
+            "last_7d": 0.663448275862069,
+            "last_30d": 0.6758000000000005,
+            "last_90d": 0.7731587301587302,
+            "last_ever": 0.659
         }
     },
     "Serpent Ward of Tang-Ki": {
@@ -60058,11 +60058,11 @@
     },
     "Shadow Hunter Set": {
         "steam": {
-            "last_24h": 0.11983333333333333,
-            "last_7d": 0.12046666666666667,
-            "last_30d": 0.12529230769230776,
-            "last_90d": 0.15012669683257915,
-            "last_ever": 0.128
+            "last_24h": null,
+            "last_7d": 0.25177777777777777,
+            "last_30d": 0.2629069767441861,
+            "last_90d": 0.24314851485148517,
+            "last_ever": 0.163
         }
     },
     "Shadow Masquerade": {
@@ -63559,11 +63559,11 @@
     },
     "Sovereign of the Woodlands": {
         "steam": {
-            "last_24h": 0.04581818181818182,
-            "last_7d": 0.05577142857142856,
-            "last_30d": 0.05112171837708831,
-            "last_90d": 0.04956677796327203,
-            "last_ever": 0.043
+            "last_24h": 0.17529999999999996,
+            "last_7d": 0.17006896551724143,
+            "last_30d": 0.1876428571428572,
+            "last_90d": 0.2232495867768594,
+            "last_ever": 0.182
         }
     },
     "Spade of the Gluttonous": {
@@ -66268,11 +66268,11 @@
     },
     "Stonehall Royal Guard Set": {
         "steam": {
-            "last_24h": 0.092,
-            "last_7d": 0.0919375,
-            "last_30d": 0.09218055555555556,
-            "last_90d": 0.10587254901960787,
-            "last_ever": 0.106
+            "last_24h": 0.135,
+            "last_7d": 0.132,
+            "last_30d": 0.12162857142857142,
+            "last_90d": 0.13294565217391305,
+            "last_ever": 0.135
         }
     },
     "Stoneshard Belt": {
@@ -67737,9 +67737,9 @@
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": null,
-            "last_90d": null,
-            "last_ever": 23.164
+            "last_30d": 0.223,
+            "last_90d": 0.223,
+            "last_ever": 0.223
         }
     },
     "Tahlin Occult Hood": {
@@ -67753,11 +67753,11 @@
     },
     "Tahlin Occult Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03,
-            "last_30d": 0.03007692307692305,
-            "last_90d": 0.030076376554173997,
-            "last_ever": 0.03
+            "last_24h": 0.0305,
+            "last_7d": 0.030818181818181824,
+            "last_30d": 0.030545454545454567,
+            "last_90d": 0.03263076923076921,
+            "last_ever": 0.031
         }
     },
     "Tahlin Occult Shoulder Sigil": {
@@ -69985,11 +69985,11 @@
     },
     "The Boreal Watch Set": {
         "steam": {
-            "last_24h": 0.03065,
-            "last_7d": 0.030254901960784317,
-            "last_30d": 0.030363013698630092,
-            "last_90d": 0.03023823529411761,
-            "last_ever": 0.03
+            "last_24h": 0.04833333333333334,
+            "last_7d": 0.051000000000000004,
+            "last_30d": 0.048695652173913036,
+            "last_90d": 0.05347200000000002,
+            "last_ever": 0.05
         }
     },
     "The Boreal Watch-Reforged Loading Screen": {
@@ -70030,10 +70030,10 @@
     },
     "The Caustic Consumption Set": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.030000000000000013,
-            "last_30d": 0.030191304347826055,
-            "last_90d": 0.03009034267912769,
+            "last_24h": 0.0305,
+            "last_7d": 0.03014285714285714,
+            "last_30d": 0.03076190476190478,
+            "last_90d": 0.03362499999999998,
             "last_ever": 0.03
         }
     },
@@ -70120,11 +70120,11 @@
     },
     "The Creeper's Cruelty Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03154838709677422,
-            "last_30d": 0.0309859649122807,
-            "last_90d": 0.03043794749403357,
-            "last_ever": 0.03
+            "last_24h": 0.1075,
+            "last_7d": 0.12114285714285712,
+            "last_30d": 0.13019708029197083,
+            "last_90d": 0.1302826603325415,
+            "last_ever": 0.102
         }
     },
     "The Crimson Cut-throat Set": {
@@ -70894,11 +70894,11 @@
     },
     "The Nether Grandmaster's Robes Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000002,
-            "last_30d": 0.029999999999999995,
-            "last_90d": 0.030063953488372104,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.036555555555555556,
+            "last_30d": 0.036113207547169804,
+            "last_90d": 0.03604285714285713,
+            "last_ever": 0.04
         }
     },
     "The Nightwatcher's Set": {
@@ -71074,11 +71074,11 @@
     },
     "The Second Disciple Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03005235602094241,
-            "last_30d": 0.030074812967581036,
-            "last_90d": 0.03012855209742891,
-            "last_ever": 0.03
+            "last_24h": 0.035500000000000004,
+            "last_7d": 0.03200000000000001,
+            "last_30d": 0.1405762711864407,
+            "last_90d": 0.07254716981132076,
+            "last_ever": 0.04
         }
     },
     "The Secret Cup": {
@@ -71200,11 +71200,11 @@
     },
     "The Steadfast Voyager Set": {
         "steam": {
-            "last_24h": 0.03684615384615385,
-            "last_7d": 0.03320512820512821,
-            "last_30d": 0.03185950413223136,
-            "last_90d": 0.03200270270270262,
-            "last_ever": 0.037
+            "last_24h": 0.03833333333333334,
+            "last_7d": 0.03641666666666666,
+            "last_30d": 0.03923529411764707,
+            "last_90d": 0.038087912087912075,
+            "last_ever": 0.04
         }
     },
     "The Strings of Suradan": {
@@ -71308,11 +71308,11 @@
     },
     "The Tentacular Timelord Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030419354838709684,
-            "last_30d": 0.09337777777777748,
-            "last_90d": 0.05069565217391317,
-            "last_ever": 0.03
+            "last_24h": 0.07,
+            "last_7d": 0.07285714285714286,
+            "last_30d": 0.07644186046511627,
+            "last_90d": 0.07984496124031011,
+            "last_ever": 0.07
         }
     },
     "The Third Insight Set": {
@@ -71326,11 +71326,11 @@
     },
     "The Three Virtues Bundle": {
         "steam": {
-            "last_24h": 0.281,
-            "last_7d": 0.2502142857142857,
-            "last_30d": 0.22845454545454544,
-            "last_90d": 0.2323619047619048,
-            "last_ever": 0.281
+            "last_24h": null,
+            "last_7d": null,
+            "last_30d": 0.5184545454545454,
+            "last_90d": 0.5753,
+            "last_ever": 0.413
         }
     },
     "The Timekeeper": {
@@ -72145,11 +72145,11 @@
     },
     "Tools of the Master Thief Set": {
         "steam": {
-            "last_24h": 1.193,
-            "last_7d": 1.194357142857143,
-            "last_30d": 1.1798351648351646,
-            "last_90d": 1.2082158590308378,
-            "last_ever": 1.193
+            "last_24h": null,
+            "last_7d": 11.889,
+            "last_30d": 12.148499999999999,
+            "last_90d": 16.738300000000002,
+            "last_ever": 11.889
         }
     },
     "Tools of the Northern Exiles": {
@@ -72460,11 +72460,11 @@
     },
     "Toxic Siege Armor Set": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.03020000000000001,
-            "last_30d": 0.030242990654205573,
-            "last_90d": 0.03013851351351352,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.036000000000000004,
+            "last_30d": 0.0331851851851852,
+            "last_90d": 0.03335849056603772,
+            "last_ever": 0.031
         }
     },
     "Toxic Siege Armored Saddle": {
@@ -75655,11 +75655,11 @@
     },
     "Vestige of the Arsenal Magus": {
         "steam": {
-            "last_24h": 0.0375,
-            "last_7d": 0.038274999999999997,
-            "last_30d": 0.03436764705882351,
-            "last_90d": 0.039826388888888856,
-            "last_ever": 0.044
+            "last_24h": 0.1685,
+            "last_7d": 0.16663636363636364,
+            "last_30d": 0.17065624999999995,
+            "last_90d": 0.16050793650793654,
+            "last_ever": 0.166
         }
     },
     "Vestigial Wings of the Ancient Sovereign": {
@@ -75746,10 +75746,10 @@
     "Vestments of the Iron Will Set": {
         "steam": {
             "last_24h": null,
-            "last_7d": null,
-            "last_30d": 2.143,
-            "last_90d": 3.9142941176470583,
-            "last_ever": 2.223
+            "last_7d": 2.715,
+            "last_30d": 3.0858333333333334,
+            "last_90d": 3.5340588235294117,
+            "last_ever": 2.71
         }
     },
     "Vestments of the Ten Plagues Beard": {
@@ -76591,11 +76591,11 @@
     },
     "Wandering Demon of the Plains Set": {
         "steam": {
-            "last_24h": 0.187,
-            "last_7d": 0.1879,
-            "last_30d": 0.2102297297297297,
-            "last_90d": 0.2568285714285716,
-            "last_ever": 0.187
+            "last_24h": null,
+            "last_7d": 0.5964285714285714,
+            "last_30d": 0.6377200000000001,
+            "last_90d": 0.5340123456790125,
+            "last_ever": 0.626
         }
     },
     "Wandering Harlequin's Cape": {
@@ -77149,11 +77149,11 @@
     },
     "Webs of Perception Set": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03000000000000001,
-            "last_30d": 0.030152542372881334,
-            "last_90d": 0.03919668737060045,
-            "last_ever": 0.03
+            "last_24h": 0.041499999999999995,
+            "last_7d": 0.03938461538461538,
+            "last_30d": 0.03844230769230769,
+            "last_90d": 0.035787096774193526,
+            "last_ever": 0.044
         }
     },
     "Weekend CUP": {
@@ -79383,9 +79383,9 @@
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": null,
-            "last_90d": null,
-            "last_ever": 27.02
+            "last_30d": 0.95,
+            "last_90d": 0.20173333333333335,
+            "last_ever": 0.95
         }
     },
     "Wrathful Annihilator Loading Screen": {
@@ -79903,11 +79903,11 @@
     },
     "Yuwipi Set": {
         "steam": {
-            "last_24h": 1.9242857142857144,
-            "last_7d": 0.6193333333333334,
-            "last_30d": 0.19806962025316452,
-            "last_90d": 0.08793855932203383,
-            "last_ever": 26.55
+            "last_24h": 0.053000000000000005,
+            "last_7d": 0.0405,
+            "last_30d": 0.033148936170212764,
+            "last_90d": 0.03284545454545453,
+            "last_ever": 0.04
         }
     },
     "ZFreek Player Sticker - TI 2022": {
