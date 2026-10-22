@@ -1054,11 +1054,11 @@
     },
     "Acolyte of Vengeance": {
         "steam": {
-            "last_24h": 0.632,
-            "last_7d": 0.6024999999999999,
-            "last_30d": 0.5989285714285713,
-            "last_90d": 0.6231515151515157,
-            "last_ever": 0.632
+            "last_24h": 1.0114999999999998,
+            "last_7d": 1.0380666666666667,
+            "last_30d": 1.0701451612903223,
+            "last_90d": 1.0980460829493086,
+            "last_ever": 1.02
         }
     },
     "Acolyte of Vengeance Armor": {
@@ -4861,10 +4861,10 @@
     },
     "Array of Tranquility": {
         "steam": {
-            "last_24h": 0.030000000000000002,
-            "last_7d": 0.030000000000000006,
-            "last_30d": 0.9274956521739137,
-            "last_90d": 1.071416666666663,
+            "last_24h": 0.03,
+            "last_7d": 0.036125000000000004,
+            "last_30d": 0.038137931034482764,
+            "last_90d": 0.03838596491228069,
             "last_ever": 0.03
         }
     },
@@ -7201,11 +7201,11 @@
     },
     "Beaver Knight Bundle": {
         "steam": {
-            "last_24h": 0.22249999999999998,
-            "last_7d": 0.1858571428571429,
-            "last_30d": 0.15205555555555555,
-            "last_90d": 0.14241176470588238,
-            "last_ever": 0.236
+            "last_24h": null,
+            "last_7d": 0.746,
+            "last_30d": 0.612625,
+            "last_90d": 0.5607000000000001,
+            "last_ever": 0.746
         }
     },
     "Beaver Knight Loading Screen": {
@@ -15670,11 +15670,11 @@
     },
     "Cicatrix Regalia": {
         "steam": {
-            "last_24h": 0.029999999999999995,
-            "last_7d": 0.030000000000000006,
-            "last_30d": 0.030087591240875924,
-            "last_90d": 0.030254733218588598,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.0403125,
+            "last_30d": 0.04506748466257667,
+            "last_90d": 0.04115488215488213,
+            "last_ever": 0.05
         }
     },
     "Cinch of the Mortal Coil": {
@@ -16435,11 +16435,11 @@
     },
     "Clock Master": {
         "steam": {
-            "last_24h": null,
-            "last_7d": 0.434,
-            "last_30d": 0.4539090909090909,
-            "last_90d": 0.2635909090909091,
-            "last_ever": 0.434
+            "last_24h": 0.739,
+            "last_7d": 0.739,
+            "last_30d": 0.8392857142857143,
+            "last_90d": 0.6635918367346938,
+            "last_ever": 0.739
         }
     },
     "Clock Master Loading Screen": {
@@ -17642,10 +17642,10 @@
     "Complete Dark Moon Stalker": {
         "steam": {
             "last_24h": null,
-            "last_7d": 23.338333333333335,
-            "last_30d": 22.840000000000003,
-            "last_90d": 22.31876470588235,
-            "last_ever": 25.013
+            "last_7d": null,
+            "last_30d": 29.68,
+            "last_90d": 36.160000000000004,
+            "last_ever": 29.68
         }
     },
     "Complete Feathered Hat of the Corridan Maestro": {
@@ -17741,10 +17741,10 @@
     "Complete Province of the Psion Inquisitor": {
         "steam": {
             "last_24h": null,
-            "last_7d": 1.799,
-            "last_30d": 2.4433999999999996,
-            "last_90d": 2.257774193548387,
-            "last_ever": 1.828
+            "last_7d": null,
+            "last_30d": 5.788,
+            "last_90d": 3.517384615384616,
+            "last_ever": 5.79
         }
     },
     "Complete Rose of the Corridan Maestro": {
@@ -18290,10 +18290,10 @@
     "Coveted Arms Cache": {
         "steam": {
             "last_24h": null,
-            "last_7d": 1.003,
-            "last_30d": 0.9684999999999999,
-            "last_90d": 0.9006666666666666,
-            "last_ever": 1.003
+            "last_7d": 2.0385,
+            "last_30d": 2.1734,
+            "last_90d": 2.4773999999999994,
+            "last_ever": 2.078
         }
     },
     "Cowl of the Blood Stained Sands": {
@@ -18505,11 +18505,11 @@
     },
     "Crescent": {
         "steam": {
-            "last_24h": 0.030466666666666663,
-            "last_7d": 0.0337536231884058,
-            "last_30d": 0.033730538922155676,
-            "last_90d": 0.03307989464442495,
-            "last_ever": 0.031
+            "last_24h": 0.07528571428571429,
+            "last_7d": 0.07406976744186047,
+            "last_30d": 0.08423857868020308,
+            "last_90d": 0.09854514480408857,
+            "last_ever": 0.076
         }
     },
     "Crescent Bow": {
@@ -20107,11 +20107,11 @@
     },
     "Curse of the Winter Rose": {
         "steam": {
-            "last_24h": 1.325,
-            "last_7d": 1.557785714285714,
-            "last_30d": 1.4894558823529414,
-            "last_90d": 1.5082293577981656,
-            "last_ever": 1.325
+            "last_24h": 1.881,
+            "last_7d": 1.6875000000000002,
+            "last_30d": 1.7587727272727272,
+            "last_90d": 1.6418387096774196,
+            "last_ever": 1.881
         }
     },
     "Cursed Crescent": {
@@ -20728,11 +20728,11 @@
     },
     "Dark Reef Escape": {
         "steam": {
-            "last_24h": 0.31,
-            "last_7d": 0.31,
-            "last_30d": 0.31240425531914895,
-            "last_90d": 0.32502155172413805,
-            "last_ever": 0.31
+            "last_24h": 0.622,
+            "last_7d": 0.5666923076923077,
+            "last_30d": 0.5519473684210526,
+            "last_90d": 0.5778404255319147,
+            "last_ever": 0.622
         }
     },
     "Dark Reservoir": {
@@ -21322,11 +21322,11 @@
     },
     "Deep Sea Scoundrel": {
         "steam": {
-            "last_24h": 0.17069230769230767,
-            "last_7d": 0.16975,
-            "last_30d": 0.1717188208616781,
-            "last_90d": 0.18331280276816608,
-            "last_ever": 0.175
+            "last_24h": 0.4205714285714285,
+            "last_7d": 0.4069014084507042,
+            "last_30d": 0.35037414965986413,
+            "last_90d": 0.3776328767123287,
+            "last_ever": 0.417
         }
     },
     "Deep Vault Guardian Armplates": {
@@ -21412,11 +21412,11 @@
     },
     "Deepweed Drowner": {
         "steam": {
-            "last_24h": 0.03063636363636363,
-            "last_7d": 0.030916666666666676,
-            "last_30d": 0.03238144329896907,
-            "last_90d": 0.03111195445920298,
-            "last_ever": 0.03
+            "last_24h": 0.065,
+            "last_7d": 0.06331578947368423,
+            "last_30d": 0.06512820512820514,
+            "last_90d": 0.06910909090909091,
+            "last_ever": 0.07
         }
     },
     "Deepweed Drowner Loading Screen": {
@@ -22757,7 +22757,7 @@
             "last_7d": null,
             "last_30d": null,
             "last_90d": null,
-            "last_ever": 1.15
+            "last_ever": 2.293
         }
     },
     "Dota 2 Champion's League Season 4": {
@@ -23599,11 +23599,11 @@
     },
     "Dreadhawk Armor": {
         "steam": {
-            "last_24h": 0.06815384615384616,
-            "last_7d": 0.07871604938271604,
-            "last_30d": 0.07498568019093078,
-            "last_90d": 0.07526874115983004,
-            "last_ever": 0.07
+            "last_24h": 0.27485714285714286,
+            "last_7d": 0.2684651162790699,
+            "last_30d": 0.26040756302521023,
+            "last_90d": 0.2586230859835095,
+            "last_ever": 0.279
         }
     },
     "Dreadhawk Armor Loading Screen": {
@@ -24194,10 +24194,10 @@
     "ESL One New York Summons Bundle": {
         "steam": {
             "last_24h": null,
-            "last_7d": null,
-            "last_30d": null,
-            "last_90d": null,
-            "last_ever": 6.688
+            "last_7d": 6.004,
+            "last_30d": 6.003666666666667,
+            "last_90d": 6.305999999999999,
+            "last_ever": 6.004
         }
     },
     "ESL Think Fast Razer League Ticket": {
@@ -25507,11 +25507,11 @@
     },
     "Epitaphic Bonds": {
         "steam": {
-            "last_24h": 0.03166666666666667,
-            "last_7d": 0.03242857142857143,
-            "last_30d": 0.036537313432835804,
-            "last_90d": 0.03725974025974024,
-            "last_ever": 0.031
+            "last_24h": 0.097,
+            "last_7d": 0.10328571428571429,
+            "last_30d": 0.12516666666666668,
+            "last_90d": 0.12761176470588237,
+            "last_ever": 0.097
         }
     },
     "Epitaphic Bonds Armor": {
@@ -25741,11 +25741,11 @@
     },
     "Eternal Fire": {
         "steam": {
-            "last_24h": 0.0564375,
-            "last_7d": 0.057346938775510226,
-            "last_30d": 0.0550799180327868,
-            "last_90d": 0.050100986651190026,
-            "last_ever": 0.048
+            "last_24h": 0.2012857142857143,
+            "last_7d": 0.1920769230769231,
+            "last_30d": 0.18945070422535218,
+            "last_90d": 0.20174340175953084,
+            "last_ever": 0.18
         }
     },
     "Eternal Fire Loading Screen": {
@@ -25840,11 +25840,11 @@
     },
     "Eternal Nymph": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03000000000000001,
-            "last_30d": 0.03010204081632652,
-            "last_90d": 0.030078947368421052,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.044500000000000005,
+            "last_30d": 0.043062500000000004,
+            "last_90d": 0.04024324324324324,
+            "last_ever": 0.04
         }
     },
     "Eternal Nymph Loading Screen": {
@@ -26050,7 +26050,7 @@
             "last_24h": null,
             "last_7d": null,
             "last_30d": null,
-            "last_90d": 0.946,
+            "last_90d": null,
             "last_ever": 0.946
         }
     },
@@ -27109,11 +27109,11 @@
     },
     "Father of the Forest": {
         "steam": {
-            "last_24h": 0.032,
-            "last_7d": 0.03654666666666664,
-            "last_30d": 0.03689913544668589,
-            "last_90d": 0.03609863672814751,
-            "last_ever": 0.034
+            "last_24h": 0.41983333333333334,
+            "last_7d": 0.14598076923076922,
+            "last_30d": 0.1665258215962441,
+            "last_90d": 0.14722375000000001,
+            "last_ever": 0.121
         }
     },
     "Fauld of the Cyclopean Marauder": {
@@ -27649,11 +27649,11 @@
     },
     "Fire Dragon of Doom": {
         "steam": {
-            "last_24h": 0.08083333333333334,
-            "last_7d": 0.08512820512820511,
-            "last_30d": 0.09121739130434793,
-            "last_90d": 0.09139763421292048,
-            "last_ever": 0.088
+            "last_24h": 0.3631428571428571,
+            "last_7d": 0.3706250000000001,
+            "last_30d": 0.37700000000000017,
+            "last_90d": 0.31141743119266085,
+            "last_ever": 0.364
         }
     },
     "Fire Tribunal Arms": {
@@ -27748,10 +27748,10 @@
     },
     "Firestarter": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030196078431372553,
-            "last_30d": 0.030186046511627884,
-            "last_90d": 0.03016802168021676,
+            "last_24h": null,
+            "last_7d": 0.0306,
+            "last_30d": 0.030791666666666686,
+            "last_90d": 0.03930392156862743,
             "last_ever": 0.03
         }
     },
@@ -28099,11 +28099,11 @@
     },
     "Flight of the Valkyrie": {
         "steam": {
-            "last_24h": 0.07590909090909091,
-            "last_7d": 0.07952830188679243,
-            "last_30d": 0.0761666666666667,
-            "last_90d": 0.08488823529411789,
-            "last_ever": 0.077
+            "last_24h": null,
+            "last_7d": 0.1795357142857143,
+            "last_30d": 0.17369369369369358,
+            "last_90d": 0.1753515850144091,
+            "last_ever": 0.187
         }
     },
     "Flightless Dod": {
@@ -28945,11 +28945,11 @@
     },
     "Friend of the West": {
         "steam": {
-            "last_24h": 0.07171428571428572,
-            "last_7d": 0.05633333333333333,
-            "last_30d": 0.04886805555555555,
-            "last_90d": 0.04675999999999999,
-            "last_ever": 0.072
+            "last_24h": 0.11399999999999999,
+            "last_7d": 0.11335294117647061,
+            "last_30d": 0.12333823529411765,
+            "last_90d": 0.15079888268156422,
+            "last_ever": 0.108
         }
     },
     "Frightful Revelries": {
@@ -29359,11 +29359,11 @@
     },
     "Frozen Blood": {
         "steam": {
-            "last_24h": 0.885,
-            "last_7d": 0.855125,
-            "last_30d": 0.5220606060606061,
-            "last_90d": 0.5427380191693291,
-            "last_ever": 0.885
+            "last_24h": 0.78,
+            "last_7d": 0.7944545454545455,
+            "last_30d": 0.8674255319148935,
+            "last_90d": 0.9501769230769229,
+            "last_ever": 0.78
         }
     },
     "Frozen Blood Loading Screen": {
@@ -30772,11 +30772,11 @@
     },
     "Ghastly Matriarch": {
         "steam": {
-            "last_24h": 1.3959178082191783,
-            "last_7d": 0.988923076923077,
-            "last_30d": 0.43387044534412966,
-            "last_90d": 0.4390000000000006,
-            "last_ever": 0.046
+            "last_24h": 0.03,
+            "last_7d": 0.03006521739130435,
+            "last_30d": 0.030246575342465755,
+            "last_90d": 0.032199999999999965,
+            "last_ever": 0.03
         }
     },
     "Ghastly Nocturne": {
@@ -31177,11 +31177,11 @@
     },
     "Gladiator's Revenge": {
         "steam": {
-            "last_24h": 0.5636000000000001,
-            "last_7d": 0.5779714285714286,
-            "last_30d": 0.5575597014925376,
-            "last_90d": 0.5756819338422385,
-            "last_ever": 0.666
+            "last_24h": 0.5889999999999999,
+            "last_7d": 0.6113235294117646,
+            "last_30d": 0.655186440677966,
+            "last_90d": 0.6496840855106887,
+            "last_ever": 0.595
         }
     },
     "Gladiator's Revenge Arm": {
@@ -33211,20 +33211,20 @@
     },
     "Guardian of the Eternal Seasons": {
         "steam": {
-            "last_24h": 0.12514285714285714,
-            "last_7d": 0.12713223140495872,
-            "last_30d": 0.14550671785028796,
-            "last_90d": 0.14596774193548404,
-            "last_ever": 0.127
+            "last_24h": 0.5934285714285714,
+            "last_7d": 0.6190588235294118,
+            "last_30d": 0.6636105769230773,
+            "last_90d": 0.6217203495630456,
+            "last_ever": 0.601
         }
     },
     "Guardian of the Red Mountain": {
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": 0.5103333333333334,
-            "last_90d": 0.3449285714285714,
-            "last_ever": 1.019
+            "last_30d": 0.8053333333333333,
+            "last_90d": 0.5977857142857143,
+            "last_ever": 0.913
         }
     },
     "Guardians of Nature": {
@@ -35443,11 +35443,11 @@
     },
     "Heirlooms of Aeol Drias": {
         "steam": {
-            "last_24h": 0.051769230769230776,
-            "last_7d": 0.05177499999999999,
-            "last_30d": 0.07515367965367965,
-            "last_90d": 0.06487397141619752,
-            "last_ever": 0.055
+            "last_24h": 0.13983333333333334,
+            "last_7d": 0.15386046511627904,
+            "last_30d": 0.14695999999999998,
+            "last_90d": 0.17067010309278366,
+            "last_ever": 0.133
         }
     },
     "Helinli Talent Sticker - TI 2022": {
@@ -37036,11 +37036,11 @@
     },
     "Hidden Flower": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03000000000000001,
-            "last_30d": 0.031225490196078398,
-            "last_90d": 0.030643076923076884,
-            "last_ever": 0.03
+            "last_24h": 0.076,
+            "last_7d": 0.08328571428571427,
+            "last_30d": 0.1046379310344828,
+            "last_90d": 0.08103053435114511,
+            "last_ever": 0.076
         }
     },
     "Hidden Vector - Blade": {
@@ -39142,11 +39142,11 @@
     },
     "Incantations of Hell": {
         "steam": {
-            "last_24h": 0.7170000000000001,
-            "last_7d": 0.755923076923077,
-            "last_30d": 0.7739032258064518,
-            "last_90d": 0.7552094017094015,
-            "last_ever": 0.749
+            "last_24h": 1.23,
+            "last_7d": 1.1562083333333335,
+            "last_30d": 1.2405352112676056,
+            "last_90d": 1.30144495412844,
+            "last_ever": 1.23
         }
     },
     "Infamous Gaming Team Sticker - TI 2022": {
@@ -40420,11 +40420,11 @@
     },
     "Keen Machine": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.030000000000000016,
-            "last_30d": 0.030149253731343244,
-            "last_90d": 0.030060301507537582,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.08736363636363635,
+            "last_30d": 0.11775555555555554,
+            "last_90d": 0.08683908045977014,
+            "last_ever": 0.062
         }
     },
     "Keen Machine Loading Screen": {
@@ -40908,9 +40908,9 @@
         "steam": {
             "last_24h": null,
             "last_7d": null,
-            "last_30d": 6.19975,
-            "last_90d": 6.19975,
-            "last_ever": 16.96
+            "last_30d": null,
+            "last_90d": null,
+            "last_ever": 5.845
         }
     },
     "Korean Elite League - January": {
@@ -44785,11 +44785,11 @@
     },
     "Malicious Sting": {
         "steam": {
-            "last_24h": 1.654,
-            "last_7d": 1.218,
-            "last_30d": 1.6415000000000002,
-            "last_90d": 1.6511249999999997,
-            "last_ever": 1.654
+            "last_24h": null,
+            "last_7d": 2.32,
+            "last_30d": 2.0536000000000003,
+            "last_90d": 1.966666666666667,
+            "last_ever": 2.32
         }
     },
     "Malicious Sting Armor": {
@@ -45046,11 +45046,11 @@
     },
     "Manifold Paradox Bundle": {
         "steam": {
-            "last_24h": null,
-            "last_7d": 34.914,
-            "last_30d": 35.50233333333333,
-            "last_90d": 34.7497,
-            "last_ever": 34.914
+            "last_24h": 40.215,
+            "last_7d": 37.988,
+            "last_30d": 36.34086666666666,
+            "last_90d": 37.63573684210527,
+            "last_ever": 40.215
         }
     },
     "Manifold Spear": {
@@ -46909,11 +46909,11 @@
     },
     "Mentor of the High Plains": {
         "steam": {
-            "last_24h": 0.1298,
-            "last_7d": 0.11835064935064935,
-            "last_30d": 0.12113375796178344,
-            "last_90d": 0.1711862269641128,
-            "last_ever": 0.136
+            "last_24h": 0.45357142857142857,
+            "last_7d": 0.4641458333333334,
+            "last_30d": 0.5094999999999998,
+            "last_90d": 0.6269131175468485,
+            "last_ever": 0.449
         }
     },
     "Mentor of the High Plains Ceremonial Banner": {
@@ -47656,11 +47656,11 @@
     },
     "Mortar Forge": {
         "steam": {
-            "last_24h": 0.0814,
-            "last_7d": 0.07723809523809526,
-            "last_30d": 0.06969948186528498,
-            "last_90d": 0.06947766323024057,
-            "last_ever": 0.074
+            "last_24h": 0.15733333333333333,
+            "last_7d": 0.15288888888888888,
+            "last_30d": 0.15664864864864858,
+            "last_90d": 0.20413108614232206,
+            "last_ever": 0.156
         }
     },
     "Mortar Forge Claw": {
@@ -48016,11 +48016,11 @@
     },
     "Mystic Instruments of Tang-Ki": {
         "steam": {
-            "last_24h": 0.5168478260869566,
-            "last_7d": 0.5318512396694214,
-            "last_30d": 0.5115892473118274,
-            "last_90d": 0.48191040242976474,
-            "last_ever": 0.605
+            "last_24h": 0.6766000000000001,
+            "last_7d": 0.7110434782608697,
+            "last_30d": 1.0099072847682118,
+            "last_90d": 0.9542000000000003,
+            "last_ever": 0.68
         }
     },
     "NADotA Elite League February": {
@@ -49555,11 +49555,11 @@
     },
     "Ocean Conqueror": {
         "steam": {
-            "last_24h": 0.681,
-            "last_7d": 0.7373846153846154,
-            "last_30d": 0.6605652173913039,
-            "last_90d": 0.6709645161290323,
-            "last_ever": 0.61
+            "last_24h": null,
+            "last_7d": 1.6979999999999997,
+            "last_30d": 1.1580857142857142,
+            "last_90d": 1.0876356589147294,
+            "last_ever": 2.3
         }
     },
     "Octopus Hat": {
@@ -52205,7 +52205,7 @@
             "last_7d": null,
             "last_30d": null,
             "last_90d": null,
-            "last_ever": 8.341
+            "last_ever": 8.039
         }
     },
     "Persian Gulf Cup Ticket": {
@@ -53956,11 +53956,11 @@
     },
     "Pride of the Wintermoon": {
         "steam": {
-            "last_24h": null,
-            "last_7d": 0.29566666666666663,
-            "last_30d": 0.3763809523809524,
-            "last_90d": 0.3342673611111112,
-            "last_ever": 0.37
+            "last_24h": 0.454,
+            "last_7d": 0.4875555555555555,
+            "last_30d": 0.47776923076923095,
+            "last_90d": 0.4675217391304347,
+            "last_ever": 0.454
         }
     },
     "Pride of the Woodland Outcast": {
@@ -55325,10 +55325,10 @@
     "Rainmaker MK.VII": {
         "steam": {
             "last_24h": null,
-            "last_7d": 1.381,
-            "last_30d": 1.6143333333333334,
-            "last_90d": 1.9049999999999998,
-            "last_ever": 1.894
+            "last_7d": null,
+            "last_30d": 3.1379999999999995,
+            "last_90d": 3.1558333333333337,
+            "last_ever": 1.75
         }
     },
     "Rainmaker Rocket": {
@@ -55954,11 +55954,11 @@
     },
     "Redrage Crawler": {
         "steam": {
-            "last_24h": 0.058937500000000004,
-            "last_7d": 0.05583516483516483,
-            "last_30d": 0.05164988009592324,
-            "last_90d": 0.045940812720847914,
-            "last_ever": 0.063
+            "last_24h": 0.28400000000000003,
+            "last_7d": 0.2556515151515152,
+            "last_30d": 0.28420091324200913,
+            "last_90d": 0.2905567322239031,
+            "last_ever": 0.288
         }
     },
     "Redrage Crawler Battlewings": {
@@ -56116,11 +56116,11 @@
     },
     "Regalia of the Wraith Lord Set": {
         "steam": {
-            "last_24h": 0.03799999999999999,
-            "last_7d": 0.03895454545454545,
-            "last_30d": 0.03876023391812862,
-            "last_90d": 0.040316081330868746,
-            "last_ever": 0.036
+            "last_24h": 0.04733333333333333,
+            "last_7d": 0.04781818181818183,
+            "last_30d": 0.057384615384615374,
+            "last_90d": 0.054130681818181814,
+            "last_ever": 0.052
         }
     },
     "Regime of the Enthaleen Dragon": {
@@ -56243,10 +56243,10 @@
     "Reminiscence of Dreams": {
         "steam": {
             "last_24h": null,
-            "last_7d": 1.7735454545454545,
-            "last_30d": 1.7934400000000001,
-            "last_90d": 1.7792115384615388,
-            "last_ever": 1.85
+            "last_7d": 2.169,
+            "last_30d": 2.172,
+            "last_90d": 2.241631578947368,
+            "last_ever": 2.16
         }
     },
     "Remote Mine of the Powderkeg Patrol": {
@@ -56332,11 +56332,11 @@
     },
     "Resentment of the Banished Princess": {
         "steam": {
-            "last_24h": 0.03744444444444443,
-            "last_7d": 0.03590410958904109,
-            "last_30d": 0.03681141439205958,
-            "last_90d": 0.03630917159763304,
-            "last_ever": 0.037
+            "last_24h": 0.17880000000000001,
+            "last_7d": 0.1432,
+            "last_30d": 0.14406818181818187,
+            "last_90d": 0.14678235294117645,
+            "last_ever": 0.185
         }
     },
     "Resentment of the Banished Princess Loading Screen": {
@@ -56674,11 +56674,11 @@
     },
     "Rightful Heir": {
         "steam": {
-            "last_24h": 0.029999999999999995,
-            "last_7d": 0.03035294117647059,
-            "last_30d": 0.030254901960784304,
-            "last_90d": 0.030304761904761897,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.032142857142857154,
+            "last_30d": 0.031044444444444444,
+            "last_90d": 0.03340689655172414,
+            "last_ever": 0.04
         }
     },
     "Rightful Heir Loading Screen": {
@@ -57052,11 +57052,11 @@
     },
     "Robes of the Heretic": {
         "steam": {
-            "last_24h": 0.3383333333333334,
-            "last_7d": 0.33898113207547165,
-            "last_30d": 0.3992311557788943,
-            "last_90d": 0.39579926335174975,
-            "last_ever": 0.343
+            "last_24h": 1.968,
+            "last_7d": 1.9654444444444445,
+            "last_30d": 2.062794117647059,
+            "last_90d": 1.5169476744186043,
+            "last_ever": 1.968
         }
     },
     "Robes of the Heretic Loading Screen": {
@@ -58294,11 +58294,11 @@
     },
     "Sanguine Royalty": {
         "steam": {
-            "last_24h": 0.14640000000000003,
-            "last_7d": 0.15404819277108436,
-            "last_30d": 0.15320327102803744,
-            "last_90d": 0.13841219158200294,
-            "last_ever": 0.148
+            "last_24h": 0.147,
+            "last_7d": 0.15946031746031744,
+            "last_30d": 0.15627343749999997,
+            "last_90d": 0.18325879917184276,
+            "last_ever": 0.147
         }
     },
     "Santa Gold Talent Sticker Bundle - TI 2023": {
@@ -58744,11 +58744,11 @@
     },
     "Scarlet Quarry": {
         "steam": {
-            "last_24h": 0.26966666666666667,
-            "last_7d": 0.281625,
-            "last_30d": 0.29715929203539826,
-            "last_90d": 0.3752400000000001,
-            "last_ever": 0.272
+            "last_24h": 0.364,
+            "last_7d": 0.36933333333333335,
+            "last_30d": 0.3945434782608695,
+            "last_90d": 0.42204511278195506,
+            "last_ever": 0.364
         }
     },
     "Scatterbrains": {
@@ -60013,11 +60013,11 @@
     },
     "Shadow Flame": {
         "steam": {
-            "last_24h": 1.014,
-            "last_7d": 1.0257777777777777,
-            "last_30d": 0.9689803921568623,
-            "last_90d": 0.940045751633987,
-            "last_ever": 1.014
+            "last_24h": 1.145,
+            "last_7d": 1.1634,
+            "last_30d": 1.1346415094339621,
+            "last_90d": 1.254666666666667,
+            "last_ever": 1.145
         }
     },
     "Shadow Flame Arms": {
@@ -62236,11 +62236,11 @@
     },
     "Sinister Lightning": {
         "steam": {
-            "last_24h": 0.59075,
-            "last_7d": 1.0945769230769231,
-            "last_30d": 0.6369338235294117,
-            "last_90d": 0.5750620842572058,
-            "last_ever": 0.583
+            "last_24h": 1.179,
+            "last_7d": 1.0777142857142856,
+            "last_30d": 1.1246417910447764,
+            "last_90d": 1.1506666666666658,
+            "last_ever": 1.179
         }
     },
     "Sinister Lightning Loading Screen": {
@@ -64090,11 +64090,11 @@
     },
     "Spider of Purple Nightmare": {
         "steam": {
-            "last_24h": 0.14128571428571426,
-            "last_7d": 0.13623703703703707,
-            "last_30d": 0.1284858420268258,
-            "last_90d": 0.13244199178644708,
-            "last_ever": 0.143
+            "last_24h": 0.21071428571428572,
+            "last_7d": 0.2208405797101449,
+            "last_30d": 0.23534523809523816,
+            "last_90d": 0.23199291784702591,
+            "last_ever": 0.221
         }
     },
     "Spidering of the Glutton's Larder": {
@@ -65737,11 +65737,11 @@
     },
     "Steam Chopper": {
         "steam": {
-            "last_24h": 0.078,
-            "last_7d": 0.07584210526315789,
-            "last_30d": 0.07737391304347829,
-            "last_90d": 1.1355365853658548,
-            "last_ever": 0.071
+            "last_24h": 0.11,
+            "last_7d": 0.1025,
+            "last_30d": 0.09905263157894735,
+            "last_90d": 0.12907222222222225,
+            "last_ever": 0.11
         }
     },
     "Steam Chopper Cursor Pack": {
@@ -67231,11 +67231,11 @@
     },
     "Swine of the Sunken Galley Bundle": {
         "steam": {
-            "last_24h": 35.402,
-            "last_7d": 35.402,
-            "last_30d": 31.8395,
-            "last_90d": 30.42823076923077,
-            "last_ever": 35.402
+            "last_24h": null,
+            "last_7d": 46.806,
+            "last_30d": 62.2196,
+            "last_90d": 42.27633333333333,
+            "last_ever": 46.806
         }
     },
     "Swooping Elder Loading Screen": {
@@ -67576,8 +67576,8 @@
             "last_24h": null,
             "last_7d": null,
             "last_30d": null,
-            "last_90d": null,
-            "last_ever": 19.998
+            "last_90d": 25.81,
+            "last_ever": 25.81
         }
     },
     "TEvent Dota 2 Season 1 Ticket": {
@@ -69445,11 +69445,11 @@
     },
     "Techies' Bombastic Box": {
         "steam": {
-            "last_24h": 0.286,
-            "last_7d": 0.2675,
-            "last_30d": 0.28275000000000006,
-            "last_90d": 0.32919047619047614,
-            "last_ever": 0.286
+            "last_24h": null,
+            "last_7d": 0.6485000000000001,
+            "last_30d": 0.637909090909091,
+            "last_90d": 0.6252325581395347,
+            "last_ever": 0.665
         }
     },
     "Techlabs Cup 2014 Season 2 Minsk": {
@@ -69572,10 +69572,10 @@
     "Tempest's Wrath": {
         "steam": {
             "last_24h": null,
-            "last_7d": 0.11140000000000001,
-            "last_30d": 0.10557575757575763,
-            "last_90d": 0.6078294573643405,
-            "last_ever": 0.11
+            "last_7d": 0.2692,
+            "last_30d": 0.2798387096774193,
+            "last_90d": 0.2734324324324325,
+            "last_ever": 0.285
         }
     },
     "Tempest's Wrath Armor": {
@@ -70048,11 +70048,11 @@
     },
     "The Claddish Renegade": {
         "steam": {
-            "last_24h": 0.1620909090909091,
-            "last_7d": 0.1601594202898551,
-            "last_30d": 0.16879008746355667,
-            "last_90d": 0.155124813153961,
-            "last_ever": 0.164
+            "last_24h": 0.34425,
+            "last_7d": 0.3453888888888889,
+            "last_30d": 0.3540909090909089,
+            "last_90d": 0.36253244274809243,
+            "last_ever": 0.34
         }
     },
     "The Commendable Commodore Set": {
@@ -70075,11 +70075,11 @@
     },
     "The Convicts' Trophies": {
         "steam": {
-            "last_24h": 0.27870000000000006,
-            "last_7d": 0.2804285714285714,
-            "last_30d": 0.29856774193548374,
-            "last_90d": 0.26918528610354236,
-            "last_ever": 0.281
+            "last_24h": 0.50975,
+            "last_7d": 0.528,
+            "last_30d": 0.573607142857143,
+            "last_90d": 0.6900980392156865,
+            "last_ever": 0.517
         }
     },
     "The Coronation Mantle": {
@@ -70183,11 +70183,11 @@
     },
     "The Dead Reborn": {
         "steam": {
-            "last_24h": 0.112125,
-            "last_7d": 0.11251851851851855,
-            "last_30d": 0.10620873786407772,
-            "last_90d": 1.1797497949138618,
-            "last_ever": 0.122
+            "last_24h": 0.2338181818181818,
+            "last_7d": 0.23653999999999992,
+            "last_30d": 0.2491473684210527,
+            "last_90d": 0.2605060000000001,
+            "last_ever": 0.243
         }
     },
     "The Defense Season 4": {
@@ -70291,10 +70291,10 @@
     },
     "The Fiend Cleaver": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.031800000000000016,
-            "last_30d": 0.031148514851485114,
-            "last_90d": 0.46123666666666735,
+            "last_24h": 0.04,
+            "last_7d": 0.046714285714285715,
+            "last_30d": 0.0476923076923077,
+            "last_90d": 0.044649572649572644,
             "last_ever": 0.03
         }
     },
@@ -70399,11 +70399,11 @@
     },
     "The Great Calamity": {
         "steam": {
-            "last_24h": null,
-            "last_7d": 2.09,
-            "last_30d": 2.1123333333333334,
-            "last_90d": 2.1108333333333333,
-            "last_ever": 2.09
+            "last_24h": 0.414,
+            "last_7d": 0.38833333333333336,
+            "last_30d": 0.3574285714285714,
+            "last_90d": 0.3683783783783785,
+            "last_ever": 0.414
         }
     },
     "The Hallows Within Bundle": {
@@ -70660,11 +70660,11 @@
     },
     "The Iron Claw": {
         "steam": {
-            "last_24h": 0.0953,
-            "last_7d": 0.1033,
-            "last_30d": 0.11770508474576283,
-            "last_90d": 0.11004143126177025,
-            "last_ever": 0.097
+            "last_24h": null,
+            "last_7d": 0.3077916666666667,
+            "last_30d": 0.3325225225225226,
+            "last_90d": 0.36411375661375683,
+            "last_ever": 0.315
         }
     },
     "The Iron Drakken": {
@@ -70831,11 +70831,11 @@
     },
     "The Maniacal Machinist": {
         "steam": {
-            "last_24h": 0.13533333333333333,
-            "last_7d": 0.13930894308943093,
-            "last_30d": 0.14672056239015802,
-            "last_90d": 0.14298317560462667,
-            "last_ever": 0.133
+            "last_24h": 0.247,
+            "last_7d": 0.24899999999999997,
+            "last_30d": 0.25502966101694907,
+            "last_90d": 0.2934161392405059,
+            "last_ever": 0.25
         }
     },
     "The Maniacal Machinist Loading Screen": {
@@ -70867,11 +70867,11 @@
     },
     "The Mourning Mother": {
         "steam": {
-            "last_24h": 0.029999999999999995,
-            "last_7d": 27.984816666666664,
-            "last_30d": 14.965847457627122,
-            "last_90d": 6.234452095808385,
-            "last_ever": 0.03
+            "last_24h": null,
+            "last_7d": 0.03142857142857143,
+            "last_30d": 0.03166,
+            "last_90d": 1.151942148760331,
+            "last_ever": 0.04
         }
     },
     "The Mysterious Vagabond Set": {
@@ -71425,20 +71425,20 @@
     },
     "The Witch Hunter": {
         "steam": {
-            "last_24h": 0.03,
-            "last_7d": 0.03216666666666667,
-            "last_30d": 0.030425196850393674,
-            "last_90d": 0.03030147058823531,
-            "last_ever": 0.03
+            "last_24h": 0.056,
+            "last_7d": 0.0645,
+            "last_30d": 0.062202898550724625,
+            "last_90d": 0.056134228187919445,
+            "last_ever": 0.056
         }
     },
     "The Wolf Hunter": {
         "steam": {
-            "last_24h": 0.147,
-            "last_7d": 0.1749642857142857,
-            "last_30d": 0.31212328767123276,
-            "last_90d": 0.33676267281105987,
-            "last_ever": 0.147
+            "last_24h": 1.299,
+            "last_7d": 1.2765555555555554,
+            "last_30d": 1.6199615384615393,
+            "last_90d": 1.3488791666666666,
+            "last_ever": 1.299
         }
     },
     "The Wolf Hunter Loading Screen": {
@@ -72622,11 +72622,11 @@
     },
     "Trappings of the Ravenous Fiend": {
         "steam": {
-            "last_24h": 0.076,
-            "last_7d": 0.07858823529411767,
-            "last_30d": 0.06261728395061723,
-            "last_90d": 0.053121045392022136,
-            "last_ever": 0.067
+            "last_24h": 0.3473333333333333,
+            "last_7d": 0.29246153846153844,
+            "last_30d": 0.29213432835820907,
+            "last_90d": 0.3026317567567571,
+            "last_ever": 0.296
         }
     },
     "Traveler on the High Plains Set": {
@@ -74701,11 +74701,11 @@
     },
     "Twin Blades Assassin": {
         "steam": {
-            "last_24h": 1.8478,
-            "last_7d": 1.971,
-            "last_30d": 1.9353370786516841,
-            "last_90d": 1.9115296296296294,
-            "last_ever": 1.72
+            "last_24h": 2.239,
+            "last_7d": 2.2995384615384613,
+            "last_30d": 2.4685147058823524,
+            "last_90d": 2.3603934426229505,
+            "last_ever": 2.239
         }
     },
     "Twin Blades of the Imperious Command": {
@@ -75448,11 +75448,11 @@
     },
     "Venomous Deathbringer": {
         "steam": {
-            "last_24h": 0.061,
-            "last_7d": 0.06761538461538462,
-            "last_30d": 0.06459009009009006,
-            "last_90d": 0.07236239782016358,
-            "last_ever": 0.055
+            "last_24h": 0.18460000000000001,
+            "last_7d": 0.1876,
+            "last_30d": 0.18550505050505053,
+            "last_90d": 0.21090405904059042,
+            "last_ever": 0.194
         }
     },
     "Venomous Deathbringer Head": {
@@ -75736,11 +75736,11 @@
     },
     "Vestments of the Infinite Waves": {
         "steam": {
-            "last_24h": 0.030199999999999998,
-            "last_7d": 0.031771653543307056,
-            "last_30d": 0.03180521739130439,
-            "last_90d": 0.03286662783925449,
-            "last_ever": 0.03
+            "last_24h": 0.10207142857142858,
+            "last_7d": 0.09816901408450705,
+            "last_30d": 0.101855421686747,
+            "last_90d": 0.11152906403940852,
+            "last_ever": 0.087
         }
     },
     "Vestments of the Iron Will Set": {
@@ -76627,11 +76627,11 @@
     },
     "Wandering Harlequin's Regalia": {
         "steam": {
-            "last_24h": null,
-            "last_7d": 1.542875,
-            "last_30d": 1.5182307692307695,
-            "last_90d": 1.5298076923076922,
-            "last_ever": 1.563
+            "last_24h": 1.75,
+            "last_7d": 1.5790000000000002,
+            "last_30d": 1.6838444444444443,
+            "last_90d": 1.902151785714286,
+            "last_ever": 1.785
         }
     },
     "War Blade": {
@@ -76690,11 +76690,11 @@
     },
     "War-Vestments of the Magnoceri": {
         "steam": {
-            "last_24h": 0.09793333333333334,
-            "last_7d": 0.09696969696969698,
-            "last_30d": 0.09366124661246614,
-            "last_90d": 0.09234626038781127,
-            "last_ever": 0.099
+            "last_24h": 0.18400000000000002,
+            "last_7d": 0.19036842105263152,
+            "last_30d": 0.2177131147540984,
+            "last_90d": 0.26131750000000004,
+            "last_ever": 0.178
         }
     },
     "Warbler and Snikt Loading Screen": {
@@ -76708,11 +76708,11 @@
     },
     "Warcog": {
         "steam": {
-            "last_24h": 0.0745,
-            "last_7d": 0.07733333333333332,
-            "last_30d": 0.0826862745098039,
-            "last_90d": 0.08591250000000003,
-            "last_ever": 0.072
+            "last_24h": null,
+            "last_7d": 0.18266666666666667,
+            "last_30d": 0.20789285714285713,
+            "last_90d": 0.20668965517241378,
+            "last_ever": 0.2
         }
     },
     "Warcog Blaster Shell": {
@@ -77365,11 +77365,11 @@
     },
     "Whisper of the Tribunal": {
         "steam": {
-            "last_24h": 1.18075,
-            "last_7d": 1.1549166666666666,
-            "last_30d": 1.0618548387096776,
-            "last_90d": 1.050293478260869,
-            "last_ever": 1.188
+            "last_24h": null,
+            "last_7d": 0.9037272727272726,
+            "last_30d": 0.9982702702702703,
+            "last_90d": 1.0486090225563904,
+            "last_ever": 0.895
         }
     },
     "Whispering Dead Armor": {
@@ -79336,11 +79336,11 @@
     },
     "Wrath of Ka": {
         "steam": {
-            "last_24h": 0.92,
-            "last_7d": 0.9549,
-            "last_30d": 0.98474358974359,
-            "last_90d": 1.0789066666666665,
-            "last_ever": 0.92
+            "last_24h": 1.79,
+            "last_7d": 1.6071428571428572,
+            "last_30d": 1.663,
+            "last_90d": 1.8515166666666667,
+            "last_ever": 1.79
         }
     },
     "Wrath of Ka Cursor Pack": {
@@ -79754,7 +79754,7 @@
             "last_7d": null,
             "last_30d": null,
             "last_90d": null,
-            "last_ever": 3.043
+            "last_ever": 4.852
         }
     },
     "YoDota Championship Season 2 Ticket": {
