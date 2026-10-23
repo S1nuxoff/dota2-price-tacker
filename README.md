@@ -1,13 +1,22 @@
 # Dota 2 Price Tracker
 
-> **Note**: The main part of this code was adapted from the [counter-strike-price-tracker](https://github.com/ByMykel/counter-strike-price-tracker) project and customized to meet the unique file structure and data requirements of Dota 2.
+Approximate prices of Dota 2 items on trading platforms: the lowest offer for each item on [DMarket](https://dmarket.com) and [Skinport](https://skinport.com). These are the markets' own prices, not Steam Community Market prices.
 
-## GitHub Actions Workflow for Automation
+## Data
 
-To run this script automatically via GitHub Actions:
+`static/prices/latest.json`, one item per line, keyed by the market hash name:
 
-1. Set up **secret variables** in your GitHub project settings:
-   - `USERNAME` - Your Steam account username.
-   - `PASSWORD` - Your Steam account password.
+```json
+"Dragonclaw Hook":{"price":265.02,"dmarket":{"price":265.02,"offers":9},"skinport":{"price":289.5,"offers":2}}
+```
 
-   > **Recommendation**: It is advised to use a Steam account without Steam Guard for seamless automation, as Steam Guard might interfere with automated logins.
+- `price` - the lowest offer across the markets, in USD
+- `dmarket`, `skinport` - the market's lowest offer and the number of offers; a market without offers for the item is left out
+
+Only items on sale on at least one market are listed.
+
+## How it works
+
+`node index.js` reads both markets' public APIs, no keys or accounts needed: Skinport's `/v1/items` returns every Dota 2 item in one answer, DMarket's `aggregated-prices` about 1000 items per request. A run takes under a minute. If a market fails, its prices from the previous run are kept and the run fails.
+
+The GitHub Actions workflow runs it every 6 hours and commits the result.

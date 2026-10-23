@@ -13,7 +13,7 @@ concurrency:
 jobs:
   download:
     runs-on: ubuntu-latest
-    timeout-minutes: 355
+    timeout-minutes: 20
 
     permissions:
       contents: write
@@ -23,10 +23,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Install dependencies
-        run: npm ci
       - name: Update prices
-        run: node index.js '${{ secrets.USERNAME }}' '${{ secrets.PASSWORD }}'
+        run: node index.js
       - name: Get current date and time
         if: success() || failure()
         run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV

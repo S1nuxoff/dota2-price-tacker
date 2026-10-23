@@ -1,278 +1,138 @@
-const SteamCommunity = require("steamcommunity");
 const fs = require("fs");
-const crypto = require("crypto");
 
-const dirPrices = "./static/prices";
-const dirPricehistory = "./static/pricehistory";
-const PRICES_FILE = `${dirPrices}/latest.json`;
-const STATE_FILE = "state.json";
+const PRICES_FILE = "./static/prices/latest.json";
 
-const ITEMS_URL =
-  "https://raw.githubusercontent.com/S1nuxoff/dota2-file-tracker/main/static/items_game.json";
-const MARKET_BASE_URL = "https://steamcommunity.com/market";
+const SKINPORT_URL = "https://api.skinport.com/v1/items?app_id=570&currency=USD&tradable=0";
+const DMARKET_URL = "https://api.dmarket.com/marketplace-api/v1/aggregated-prices";
+// DMarket's id of Dota 2
+const DMARKET_GAME = "9a92";
+const DMARKET_PAGE = 1000;
+const DMARKET_MAX_PAGES = 100;
 
-// Item types that are never sold on the market
-const SKIP_PREFABS = new Set([
-  "default_item",
-  "showcase_decoration",
-  "courier_wearable",
-  "versus_screen",
-]);
-
-const START_TIME = Date.now();
-// GitHub kills a job after 6 hours, leave time for the commit
-const MAX_DURATION = 5.5 * 3600 * 1000;
-// Steam allows about 20 market requests per minute
-const REQUEST_DELAY = 3000;
-const RATE_LIMIT_WAITS = [2, 5, 10].map((minutes) => minutes * 60 * 1000);
-const MAX_ERRORS_IN_ROW = 10;
-const MAX_ITEM_ERRORS = 3;
-const NO_SALES_RECHECK = 30 * 24 * 3600 * 1000;
-const SAVE_EVERY = 25;
-
-// state.json: { "<market hash name>": [checkedAt (unix seconds), status] }
-// status: 1 has sales, 0 no sales, negative - number of failed requests
-const SALES = 1;
-const NO_SALES = 0;
+const REQUEST_DELAY = 1000;
+const RETRY_WAITS = [10, 30, 60, 120].map((seconds) => seconds * 1000);
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const round = (value) => Math.round(value * 100) / 100;
 
-const historyPath = (name) =>
-  `${dirPricehistory}/${crypto.createHash("sha1").update(name).digest("hex")}.json`;
+// latest.json: { "<market hash name>": { price, dmarket?: {...}, skinport?: {...} } }
+// price - the lowest offer across the markets, each market keeps its lowest offer and count
+const SOURCES = {
+  dmarket: getDmarketOffers,
+  skinport: getSkinportOffers,
+};
 
-if (process.argv.length != 4) {
-  console.error(`Usage: node index.js <USERNAME> <PASSWORD>`);
-  process.exit(1);
-}
-
-fs.mkdirSync(dirPrices, { recursive: true });
-fs.mkdirSync(dirPricehistory, { recursive: true });
-
-const community = new SteamCommunity();
-
-console.log("Logging into Steam community....");
-
-community.login(
-  {
-    accountName: process.argv[2],
-    password: process.argv[3],
-    disableMobile: true,
-  },
-  async (err) => {
-    if (err) {
-      console.error("Login failed:", err.message);
-      process.exit(1);
-    }
-
-    try {
-      process.exit(await run());
-    } catch (error) {
-      console.error("An error occurred while processing items:", error);
-      process.exit(1);
-    }
+run().then(
+  (code) => process.exit(code),
+  (error) => {
+    console.error(error);
+    process.exit(1);
   }
 );
 
 async function run() {
-  console.log("Loading items...");
-  const names = await getMarketableItemNames();
-  const state = loadState();
-  const prices = loadJSON(PRICES_FILE, {});
-  const queue = buildQueue(names, state);
+  const old = loadJSON(PRICES_FILE, {});
+  const prices = {};
+  let failed = false;
 
-  console.log(`${names.length} items, ${queue.length} to check in this run.`);
+  for (const [source, getOffers] of Object.entries(SOURCES)) {
+    let offers;
+    try {
+      offers = await getOffers();
+      console.log(`${source}: ${offers.size} items on sale`);
+    } catch (error) {
+      // Keep what was collected last time rather than drop the market's prices
+      console.error(`${source} failed, keeping its old prices: ${error.message}`);
+      failed = true;
+      offers = new Map();
+      for (const [name, entry] of Object.entries(old)) {
+        if (entry[source]) offers.set(name, entry[source]);
+      }
+    }
 
-  const ok = await processItems(queue, state, prices);
+    for (const [name, offer] of offers) {
+      (prices[name] ??= {})[source] = offer;
+    }
+  }
 
-  saveState(state);
+  for (const entry of Object.values(prices)) {
+    entry.price = Math.min(...Object.keys(SOURCES).map((source) => entry[source]?.price ?? Infinity));
+  }
+
   savePrices(prices);
-  return ok ? 0 : 1;
+  console.log(`${Object.keys(prices).length} items with a price.`);
+  return failed ? 1 : 0;
 }
 
-async function getMarketableItemNames() {
-  const res = await fetch(ITEMS_URL);
-  if (!res.ok) {
-    throw new Error(`Could not load items: HTTP ${res.status} ${ITEMS_URL}`);
-  }
+async function request(url, options) {
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(url, options);
+    if (res.ok) return res.json();
 
-  const items = Object.values((await res.json()).items_game.items).filter(
-    (item) => item.name && item.prefab && !SKIP_PREFABS.has(item.prefab)
-  );
-  items.sort((a, b) => a.prefab.localeCompare(b.prefab));
-  return [...new Set(items.map((item) => item.name))];
-}
-
-// Never checked items go first (those with an old price history before the rest),
-// then the ones checked longest ago. Items without sales wait NO_SALES_RECHECK.
-function buildQueue(names, state) {
-  const now = Date.now();
-  const queue = [];
-
-  for (const name of names) {
-    const entry = state[name];
-    if (!entry) {
-      queue.push({ name, group: fs.existsSync(historyPath(name)) ? 0 : 1, checkedAt: 0 });
-      continue;
+    const retry = res.status == 429 || res.status >= 500;
+    if (!retry || attempt >= RETRY_WAITS.length) {
+      throw new Error(`HTTP ${res.status} ${url}: ${(await res.text()).slice(0, 200)}`);
     }
-
-    const [checkedAt, status] = entry;
-    if (status === NO_SALES && now - checkedAt * 1000 < NO_SALES_RECHECK) {
-      continue;
-    }
-    queue.push({ name, group: 2, checkedAt });
+    console.log(`HTTP ${res.status}, waiting ${RETRY_WAITS[attempt] / 1000} s...`);
+    await delay(RETRY_WAITS[attempt]);
   }
-
-  queue.sort((a, b) => a.group - b.group || a.checkedAt - b.checkedAt);
-  return queue.map((item) => item.name);
 }
 
-function fetchPriceHistory(name) {
-  const url = `${MARKET_BASE_URL}/pricehistory/?appid=570&market_hash_name=${encodeURIComponent(name)}`;
+// All items of the game in one answer; Skinport wants the answer brotli compressed
+async function getSkinportOffers() {
+  const items = await request(SKINPORT_URL, { headers: { "Accept-Encoding": "br" } });
+  const offers = new Map();
 
-  return new Promise((resolve) => {
-    community.request.get(url, (err, res) => {
-      if (err) {
-        resolve({ error: err.message });
-        return;
-      }
-      if (res.statusCode == 429) {
-        resolve({ rateLimited: true });
-        return;
-      }
+  for (const item of items) {
+    if (item.quantity > 0 && item.min_price) {
+      offers.set(item.market_hash_name, { price: round(item.min_price), offers: item.quantity });
+    }
+  }
+  return offers;
+}
 
-      let body = null;
-      try {
-        body = JSON.parse(res.body);
-      } catch {}
+// A page of up to 1000 titles per request, amounts in cents
+async function getDmarketOffers() {
+  const offers = new Map();
+  let cursor = "";
 
-      // Without a valid session Steam answers 400 with []
-      if (!body || body.success !== true) {
-        resolve({ error: `HTTP ${res.statusCode}` });
-        return;
-      }
+  for (let page = 0; page < DMARKET_MAX_PAGES; page++) {
+    const body = { filter: { game: DMARKET_GAME }, limit: String(DMARKET_PAGE) };
+    if (cursor) body.cursor = cursor;
 
-      resolve({
-        prices: (body.prices || []).map(([time, value, volume]) => ({
-          time: Date.parse(time),
-          value,
-          volume: parseInt(volume),
-        })),
-      });
+    const data = await request(DMARKET_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
     });
-  });
-}
 
-async function processItems(queue, state, prices) {
-  let errorsInRow = 0;
-  let rateLimitHits = 0;
-
-  for (let i = 0; i < queue.length; i++) {
-    if (Date.now() - START_TIME >= MAX_DURATION) {
-      console.log("Max duration reached, stopping.");
-      return true;
-    }
-
-    const name = queue[i];
-    const result = await fetchPriceHistory(name);
-    const now = Math.floor(Date.now() / 1000);
-
-    if (result.rateLimited) {
-      if (rateLimitHits >= RATE_LIMIT_WAITS.length) {
-        console.error("Still rate limited by Steam, stopping.");
-        return false;
+    for (const item of data.aggregatedPrices) {
+      const count = parseInt(item.offerCount);
+      const amount = parseInt(item.offerBestPrice?.Amount);
+      if (count > 0 && amount > 0) {
+        offers.set(item.title, { price: amount / 100, offers: count });
       }
-      const wait = RATE_LIMIT_WAITS[rateLimitHits++];
-      console.log(`Rate limited by Steam, waiting ${wait / 60000} min...`);
-      await delay(wait);
-      i--;
-      continue;
-    }
-    rateLimitHits = 0;
-
-    if (result.error) {
-      const status = state[name]?.[1];
-      const errors = (status < 0 ? -status : 0) + 1;
-      state[name] = [now, errors >= MAX_ITEM_ERRORS ? NO_SALES : -errors];
-      console.log(`[${i + 1}/${queue.length}] ${name}: ${result.error}`);
-
-      if (++errorsInRow >= MAX_ERRORS_IN_ROW) {
-        console.error(`${errorsInRow} errors in a row, stopping.`);
-        return false;
-      }
-    } else {
-      errorsInRow = 0;
-      const { prices: history } = result;
-
-      if (history.length > 0) {
-        prices[name] = { steam: getWeightedAveragePrice(history) };
-        fs.writeFileSync(historyPath(name), JSON.stringify(history));
-        state[name] = [now, SALES];
-      } else {
-        state[name] = [now, NO_SALES];
-      }
-      console.log(`[${i + 1}/${queue.length}] ${name}: ${history.length > 0 ? "ok" : "no sales"}`);
     }
 
-    if ((i + 1) % SAVE_EVERY == 0) {
-      saveState(state);
-      savePrices(prices);
-    }
-
+    cursor = data.nextCursor;
+    if (!cursor) return offers;
     await delay(REQUEST_DELAY);
   }
-
-  return true;
-}
-
-function getWeightedAveragePrice(data) {
-  const now = Date.now();
-
-  const calculateWAP = (days) => {
-    const limit = now - days * 24 * 60 * 60 * 1000;
-    let totalVolume = 0;
-    let totalPriceVolumeProduct = 0;
-
-    for (const { time, value, volume } of data) {
-      if (time >= limit) {
-        totalPriceVolumeProduct += value * volume;
-        totalVolume += volume;
-      }
-    }
-
-    return totalVolume > 0 ? totalPriceVolumeProduct / totalVolume : null;
-  };
-
-  return {
-    last_24h: calculateWAP(1),
-    last_7d: calculateWAP(7),
-    last_30d: calculateWAP(30),
-    last_90d: calculateWAP(90),
-    last_ever: data[data.length - 1].value,
-  };
+  throw new Error(`more than ${DMARKET_MAX_PAGES} pages`);
 }
 
 function loadJSON(file, fallback) {
   return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : fallback;
 }
 
-function loadState() {
-  const state = loadJSON(STATE_FILE, {});
-  // The old format only kept a position in the list
-  return "lastIndex" in state ? {} : state;
-}
-
 // One item per line so that git diffs stay small
-function saveState(state) {
-  const lines = Object.keys(state)
-    .sort()
-    .map((name) => `${JSON.stringify(name)}:${JSON.stringify(state[name])}`);
-  fs.writeFileSync(STATE_FILE, `{\n${lines.join(",\n")}\n}\n`);
-}
-
 function savePrices(prices) {
-  const ordered = {};
-  for (const name of Object.keys(prices).sort()) {
-    ordered[name] = prices[name];
-  }
-  fs.writeFileSync(PRICES_FILE, JSON.stringify(ordered, null, 4));
+  const lines = Object.keys(prices)
+    .sort()
+    .map((name) => {
+      const { price, ...markets } = prices[name];
+      return `${JSON.stringify(name)}:${JSON.stringify({ price, ...markets })}`;
+    });
+  fs.mkdirSync("./static/prices", { recursive: true });
+  fs.writeFileSync(PRICES_FILE, `{\n${lines.join(",\n")}\n}\n`);
 }
