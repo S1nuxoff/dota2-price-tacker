@@ -19,4 +19,4 @@ Only items on sale on at least one market are listed.
 
 `node index.js` reads both markets' public APIs, no keys or accounts needed: Skinport's `/v1/items` returns every Dota 2 item in one answer, DMarket's `aggregated-prices` about 1000 items per request. A run takes under a minute. If a market fails, its prices from the previous run are kept and the run fails.
 
-The GitHub Actions workflow runs it every 6 hours and commits the result.
+The GitHub Actions workflow runs it every 20 minutes and commits the result. Dotadex reads `latest.json` from this repository in the browser, so new prices show on the site without a rebuild.
